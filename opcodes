@@ -143,8 +143,8 @@ bdep       rd rs1 rs2 31..25=4 14..12=2 6..2=0x0C 1..0=3
 bext       rd rs1 rs2 31..25=4 14..12=6 6..2=0x0C 1..0=3
 pack       rd rs1 rs2 31..25=4 14..12=4 6..2=0x0C 1..0=3
 
-shfli      rd rs1 31..26=2 shamt 14..12=1 6..2=0x04 1..0=3
-unshfli    rd rs1 31..26=2 shamt 14..12=5 6..2=0x04 1..0=3
+shfli      rd rs1 31..25=4 shamtw 14..12=1 6..2=0x04 1..0=3
+unshfli    rd rs1 31..25=4 shamtw 14..12=5 6..2=0x04 1..0=3
 
 # RV64B
 bmatflip   rd rs1 31..20=0x603 14..12=1 6..2=0x04 1..0=3
